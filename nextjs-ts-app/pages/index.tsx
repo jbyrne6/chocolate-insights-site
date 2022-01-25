@@ -16,12 +16,18 @@ const Home: NextPage = () => {
       <Navbar />
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Chocolate Insights
-        </h1>
-        <h2 className={styles.description}>
-          {"We are an organization dedicated to supporting all of those involved in the craft chocolate process. From when the cacao is being grown to the moment the end product hits the consumer's taste buds."}
-        </h2>
+        <div className="max-w-4xl">
+          <h1 className={styles.title} id="about-us">
+            About Us
+          </h1>
+          <div className={styles.description}>
+          <h2 className="leading-loose">
+            We are an organization whose mission is to <b>support all</b> of those involved in the <b>craft chocolate process</b>.
+            Not just from bean-to-bar, but from when the cacao is being grown to the moment the end product hits the {"consumer's taste buds. "} 
+            <b>Our specialty</b> lies in <b>creating impactful software</b> to help with every aspect of this craft.
+          </h2>
+          </div>
+        </div>
       </main>
     </div>
   )

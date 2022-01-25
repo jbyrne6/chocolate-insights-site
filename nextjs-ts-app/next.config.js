@@ -1,6 +1,14 @@
 module.exports = function(...args) {
   let original = require('./next.config.original.1643081894736.js');
-  const finalConfig = {};
+  const finalConfig = {
+    webpackDevMiddleware: config => {
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+      }
+      return config
+    },
+  };
   const target = { target: 'serverless' };
   if (typeof original === 'function' && original.constructor.name === 'AsyncFunction') {
     // AsyncFunctions will become promises

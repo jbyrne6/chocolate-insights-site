@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           Welcome to Chocolate Insights
         </h1>
         <h2 className={styles.description}>
-          We are an organization dedicated to supporting all of those involved in the craft chocolate process. From when the cacao is being grown to the moment the end product hits the consumer's taste buds.
+          {"We are an organization dedicated to supporting all of those involved in the craft chocolate process. From when the cacao is being grown to the moment the end product hits the consumer's taste buds."}
         </h2>
       </main>
     </div>

@@ -1,0 +1,17 @@
+{
+  "name": "f0wmm7-sp82zps",
+  "hash": "JLoGbRklLp1eTcTBRxNsR7jVft+tENEByZNIImdLF0Q=",
+  "description": "Default Lambda@Edge for Next CloudFront distribution",
+  "memory": 512,
+  "timeout": 10,
+  "code": "C:\\Projects\\Chocolate-Insights\\chocolate-insights-site\\nextjs-ts-app\\.serverless_nextjs\\default-lambda",
+  "shims": [],
+  "handler": "index.handler",
+  "runtime": "nodejs14.x",
+  "env": {},
+  "role": {
+    "arn": "arn:aws:iam::634294906493:role/f0wmm7-3st85jb"
+  },
+  "arn": "arn:aws:lambda:us-east-1:634294906493:function:f0wmm7-sp82zps",
+  "region": "us-east-1"
+}

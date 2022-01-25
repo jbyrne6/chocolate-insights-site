@@ -1,0 +1,14 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "chocolateinsights.com",
+  "subdomains": [
+    {
+      "domain": "www.chocolateinsights.com",
+      "distributionId": "E1W3YRM2MO5Y8I",
+      "url": "https://d2nfm2vhg9o1vp.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ],
+  "domainMinimumProtocolVersion": "TLSv1.2_2018"
+}

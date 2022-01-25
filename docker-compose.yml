@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  nextjs:
+    ports:
+      - 3000:3000
+    build:
+      context: ./nextjs-ts-app/
+      dockerfile: Dockerfile
+    volumes:
+      - ./nextjs-ts-app:/usr/app
+      - /usr/app/node_modules
+      - /usr/app/.next
